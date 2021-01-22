@@ -1,0 +1,5 @@
+__pycache__/
+*.log
+*.swp
+*.tar.gz
+configs/agent_configs_*
