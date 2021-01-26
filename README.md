@@ -182,7 +182,7 @@ cd ../src
 # This command will run 216 configurations using all available CPUs. 
 
 # You can also use "-t " to control the number of threads if you don't want to use all CPUs.
-python run_agents.py ../configs/agent_configs_attack_ppo_ant_scan/ --out-dir-prefix=../configs/agents_attack_ppo_ant_scan/attack_ppo_ant/agents > attack_ant_scan.log
+python run_agents.py ../configs/agent_configs_attack_ppo_ant_scan/ --out-dir-prefix=../configs/agents_attack_ppo_ant_scan > attack_ant_scan.log
 
 ```
 

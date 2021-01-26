@@ -10,7 +10,7 @@ folders = sorted([f for f in os.listdir(base)])
 # print(folders)
 D = {'exp_id':[], 'reward_mean':[], 'reward_std':[]}
 for f in folders:
-    filename = os.path.join(base, f, 'attack_scan', 'advpolicy_deterministic.log')
+    filename = os.path.join(base, f, 'attack_scan', 'optatk_deterministic.log')
     if not os.path.exists(filename):
         continue 
     with open(filename, 'r') as l:
